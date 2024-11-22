@@ -5,6 +5,7 @@ Go to <tailwind.css>
 Docs -> Framework Guides -> Laravel -> Install TailwindCss
 
 > npm install -D tailwindcss postcss autoprefixer
+
 > npx tailwindcss init -p
 
 # 2. Configure your template paths
@@ -21,7 +22,9 @@ paste this content and remove old content
 
 # 3. Add the Tailwind directives to your CSS
 
-go to app.css  remove old and add this 
+go to-> app.css  
+
+remove old and add this 
 
     @tailwind base;
     @tailwind components;
@@ -36,4 +39,5 @@ add this in end of the header tag..
 # 5.
 
 > npm run build
+
 > npm run dev
