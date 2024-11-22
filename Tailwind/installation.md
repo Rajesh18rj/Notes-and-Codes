@@ -12,7 +12,7 @@ Docs -> Framework Guides -> Laravel -> Install TailwindCss
 
 go to->  tailwind.config.js  file
 
-paste this content and remove old content 
+paste this in content and remove old content 
 
     content: [
         "./resources/**/*.blade.php",
